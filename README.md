@@ -36,6 +36,21 @@ A fun, skill-based bubble gum blowing game for your terminal.
    python bubble_gum_cli.py
    ```
 
+## How to Download and Run on Linux
+
+1. Open your terminal.
+2. Download the game file with:
+   ```sh
+   wget https://github.com/rebugging/Bubble_Gum_Blow/raw/main/bubble_gum_cli.py
+   ```
+3. Run the game using:
+   ```sh
+   python3 bubble_gum_cli.py
+   ```
+4. Play using your keyboard as described above.
+
+Your high score will be saved in `bubble_gum_highscore.txt` in the same folder.
+
 ## High Score
 
 - Your highest bubble size is saved in `bubble_gum_highscore.txt` in the same folder.
