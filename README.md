@@ -4,7 +4,6 @@ Your new favourite CLI game! BGB (Bubble Gum Game)
 # Bubble Gum CLI Game
 
 A fun, skill-based bubble gum blowing game for your terminal.  
-Created by [rebugging](https://github.com/rebugging)
 
 ## How to Play
 
