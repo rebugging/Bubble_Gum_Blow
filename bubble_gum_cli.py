@@ -126,10 +126,30 @@ def main():
         if result is None:
             print("Thanks for playing!")
             break
-        again = input("\nPlay again? (y/n): ")
-        if again.lower() != "y":
-            print("Thanks for playing!")
-            break
+        print("\nPress [Enter] to play again, or [Esc] to quit.")
+        while True:
+            if os.name == 'nt':
+                import msvcrt
+                key = msvcrt.getch()
+                if key in [b'\r', b'\n']:
+                    break  # Play again
+                elif key == b'\x1b':  # ESC key
+                    print("Thanks for playing!")
+                    return
+            else:
+                import sys, termios, tty
+                fd = sys.stdin.fileno()
+                old_settings = termios.tcgetattr(fd)
+                try:
+                    tty.setcbreak(fd)
+                    ch = sys.stdin.read(1)
+                    if ch in ['\n', '\r']:
+                        break  # Play again
+                    elif ord(ch) == 27:  # ESC key
+                        print("Thanks for playing!")
+                        return
+                finally:
+                    termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
 
 if __name__ == "__main__":
     main()
