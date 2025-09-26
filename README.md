@@ -19,7 +19,7 @@ A fun, skill-based bubble gum blowing game for your terminal.
 
 - `[Space]` or `[Enter]`: Blow when the marker is in the zone
 - `q`: Quit during the skill bar
-- `y`/`n`: Play again after popping
+- `[Enter]' or '[Esc]' : Play again after popping
 
 ## Requirements
 
