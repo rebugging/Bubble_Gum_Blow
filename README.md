@@ -18,7 +18,7 @@ A fun, skill-based bubble gum blowing game for your terminal.
 ## Controls
 
 - `[Space]` or `[Enter]`: Blow when the marker is in the zone
-- `q`: Quit during the skill bar
+- `q`: To quit
 - `[Enter]` or `[Esc]` : Play again / stop playing
 
 ## Requirements
@@ -36,7 +36,7 @@ A fun, skill-based bubble gum blowing game for your terminal.
    python bubble_gum_cli.py
    ```
 
-## How to Download and Run on Linux
+## How to Download and Run on Linux (not working atm)
 
 1. Open your terminal.
 2. Download the game file with:
@@ -50,10 +50,6 @@ A fun, skill-based bubble gum blowing game for your terminal.
 4. Play using your keyboard as described above.
 
 Your high score will be saved in `bubble_gum_highscore.txt` in the same folder.
-
-## High Score
-
-- Your highest bubble size is saved in `bubble_gum_highscore.txt` in the same folder.
 
 ---
 
