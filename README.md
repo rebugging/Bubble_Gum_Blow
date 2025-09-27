@@ -1,5 +1,5 @@
 # Bubble_Gum_Blow
-Your new favourite CLI game! BGB (Bubble Gum Game)
+Your new favourite CLI game! BGB (Bubble Gum Blow)
 
 # Bubble Gum CLI Game
 
